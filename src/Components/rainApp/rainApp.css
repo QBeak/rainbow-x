@@ -1,0 +1,308 @@
+.row{
+    display: block;
+    /* border: 10px solid; */
+    margin: auto;
+    height: 800px;
+    max-width: 90vw;
+    font-family: 'Arial Rounded MT';
+}
+
+.row .rowInner{
+    display: flex;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 5px solid red; */
+    height: 500px;
+    margin-top: 1%;
+}
+.column{
+    display: block;
+    width: 20%;
+    height: 50%;
+    border: 6px solid rgb(17, 17, 204);
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.column2{
+    height: 50%;
+    width: 56%;
+    margin: auto;
+    border-radius: 8px;
+    border: 6px solid rgb(17, 17, 204);
+}
+
+.column3{
+    display: block;
+    width: 20%;
+    height: 50%;
+    border: 6px solid rgb(17, 17, 204);
+    border-radius: 8px;
+}
+
+.column2 .box2{
+    border: 6px solid rgb(17, 17, 204);
+    height: 50%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.roundContainer{
+    /* border: 1 solid black; */
+    margin: auto;
+}
+.roundButton{
+    border: 7px solid blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.roundButton2{
+    border: 7px solid blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 0%;
+    justify-content: center;
+    
+}
+.normButton-container{
+    margin-top: -70px;
+    /* border: 1px solid; */
+}
+
+.normButton{
+    width: 185px;
+    border: 2px solid blue;
+    border-radius:15px;
+    height: 40px;
+    margin-top: 40%;
+    color: blue;
+    background: white;
+}
+.innerButton{
+    width: 220px;
+    border: 3px solid blue;
+    border-radius:15px;
+    height: 40px;
+    margin-top: 40%;
+    margin-left: -10px;
+    color: blue;
+    background: white;
+}
+
+.lowerButton{
+    border: 3px solid blue;
+    border-radius:15px;
+    height: 40px;
+    width: 420px;
+    margin-left: 105px;
+    margin-top: 8px;
+    color: blue;
+    font-weight: 600;
+    font-size: 18px;
+    background: white;
+}
+
+.lowerButton2{
+    border: 4px solid blue;
+    border-radius:10px;
+    height: 40px;
+    width: 60px;
+    margin-left: 3px;
+    color: blue;
+    font-weight: 600;
+    font-family: 'Arial Rounded MT';
+    background: white;
+}
+
+.lowerButton3{
+    border: 3px solid blue;
+    border-radius:15px;
+    height: 40px;
+    width: 210px;
+    margin-left: 210px;
+    margin-top: 2px;
+    color: blue;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Arial Rounded MT';
+    background: white;
+}
+
+.row table{
+    width: 100%;
+    height: 500px;
+    border-spacing: 10px;
+}
+tr{
+    width: 100%;
+    margin-inline: 2px;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+td{
+    border-radius: 10px;
+}
+td.a{
+    width: 20%;
+    border: 5px solid blue;
+}
+
+td.b{
+    width: 60%;
+    border: 5px solid blue;
+}
+td.c{
+    width: 20%;
+    /* border: 1px solid black; */
+}
+td.d{
+    width: 20%;
+    /* border: 1px solid black; */
+}
+
+.midHeight{
+    margin-top: 25px;
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.topHeight{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.testAlign{
+    display: flex;
+    margin-top: 10px;
+    color: blue;
+    font-weight: 600;
+    font-size: 1.8vw;
+    font-family: 'Arial Rounded MT';
+}
+
+.tableA{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.card-container{
+    height: 80px;
+}
+
+.boxHeaders{
+    margin-top: 3px;
+    display: flex;
+}
+
+.boxHeader1{
+    font-weight: 600;
+    font-size: 1.4vw;
+    color: blue;
+}
+
+.boxHeader2{
+    font-weight: 600;
+    font-size: 0.8vw;
+    color: blue;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+.appNav{
+    width: 93%;
+    /* border: 2px solid; */
+    height: 50px;
+    margin-top: 5px;
+    display: flex;
+    margin-left: 3%;
+  }
+.appNav .img-container{
+    width: 42%;
+    
+}
+
+.top-button{
+    width: 60%;
+    margin-top: 1%;
+    /* border: 1px solid; */
+}
+
+.conWallet{
+    margin-left: 100px;
+    border-radius: 8px;
+    border: 4px solid blue;
+    height: 90%;
+    width: 50%;
+    color: blue;
+    font-weight: 600;
+    font-size: 1.5vw;
+    background: white;
+}
+.conMainnet{
+    border-radius: 8px;
+    border: 4px solid blue;
+    float: right;
+    height: 90%;
+    width: 30%;
+    color: blue;
+    font-weight: 600;
+    font-size: 1.5vw;
+    background: white;
+}
+  .appNav img{
+      width: 20%;
+      height: 100%;
+      float: left;
+  }
+
+  .darkMode{
+      margin-top: 13px;
+      margin-left: 2px;
+      float: left;
+      width: 0.2%;
+      height: 0.1%;
+      border: 0px;
+  }
+  .iconButton{
+      width: 100%;
+  }
+
+  .red{
+      color: red;
+  }
+
+  .orange{
+    color: orange;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: rgb(58, 252, 58);
+}
+
+.blue{
+    color: blue;
+}
+
+.purple{
+    color: rgb(168, 50, 168);
+}
+
+.violet{
+    color: violet;
+}

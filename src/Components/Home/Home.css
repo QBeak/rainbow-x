@@ -1,0 +1,129 @@
+.hm-main{
+    /* border-top: 1px solid rgb(240, 235, 235); */
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.rainbow-1{
+    /* border: 1px solid black; */
+    background: linear-gradient(rgb(255, 253, 255),rgb(248, 246, 248));
+    height: 420px;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin-top: 77px;
+}
+
+.hm-con-image{
+    /* border: 1px solid; */
+    margin-top: 40px;
+    width: 24%;
+}
+
+.hm-con-image img{
+    /* margin-left: 0px; */
+    margin-right: 60%;
+    width: 100%;
+}
+
+.hm-con-text{
+    margin-top: 65px;
+    margin-left: 20px;
+    align-content: flex-start;
+    /* border: 1px solid; */
+    max-width: 60%;
+    text-align: left;
+}
+
+.largeFont{
+    margin-left: 200px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.mediumFont{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.buttonSet{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.buttonStyle-gradient{
+    border-radius: 6px;
+    border: 0px;
+    padding: 8px;
+    background-image: linear-gradient(to left,blue,violet);
+    color: white;
+    height: 58px;
+    width: 230px;
+}
+
+.buttonStyle{
+    margin-left: 30px;
+    border-radius: 6px;
+    border: 2px solid blueviolet;
+    padding: 8px;
+    /* background-image: linear-gradient(to left,blue,violet); */
+    color: blueviolet;
+    height: 58px;
+    width: 230px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.rainbow-2{
+    border: 1px solid rgb(248, 246, 248);
+    background: linear-gradient(to bottom left, rgb(248, 246, 248), rgb(243, 238, 243));
+    display: block;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 100%;
+    height: 1150px;
+}
+
+.rain-2-header{
+    margin: auto;
+    margin-top: 60px;
+    width: 50%;
+    height: 150px;
+    font-size: 38px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    /* border: 1px solid; */
+}
+
+.cards{
+    /* border: 1px solid; */
+    margin: auto;
+    width: 90%;
+    /* margin-bottom: 160px; */
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* justify-content: center; */
+}
+
+.card-content{
+    border: 1px solid rgb(207, 202, 202);
+    border-radius: 10px;
+    background: rgb(241, 237, 237);
+    margin-inline: 10px;
+    width: 30%;
+    margin-top: 80px;
+    height: 260px;
+    /* padding: 10px; */
+    box-shadow: 1px 1px 30px rgb(209, 199, 199);
+}
+
+.cardHeader{
+    font-size: 25px;
+    font-weight: 600;
+}

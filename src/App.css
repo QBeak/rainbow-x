@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background: rgb(255, 255, 255);
+  color: rgb(61, 57, 57);
+  /* position: relative; */
+  width:100%;
+  display: block;
 }
 
 .App-logo {
@@ -27,6 +32,30 @@
 .App-link {
   color: #61dafb;
 }
+
+/* .fs-main{
+    /* border: 1px solid black; */
+    
+    
+    /* justify-content: 'center';
+    align-items: 'center'; */
+    
+    /* align-content: flex-end; */
+/* } */
+/* .app-Navbar{
+  max-width: 100%;
+}
+
+.app-Home{
+  max-width: 100%;
+} */
+
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {

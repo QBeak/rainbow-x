@@ -1,0 +1,107 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s ease-in;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    /* color: black; */
+    height: 77px;
+    display:flex;
+    border: 1px solid rgb(240, 235, 235);
+    max-width: 100%;
+    margin: auto;
+}
+
+.img-div{
+    width: 26%;
+    height: 77px;
+    /* border: 1px solid black; */
+    margin-left: 4.8%;
+}
+.img-div img{
+    width: 50%;
+    height:100%;
+    margin-right: 50%;
+}
+
+.navbar-nav{
+    display:flex;
+    justify-content: space-between;
+    width: 55%;
+    /* border: 1px solid; */
+}
+.ul-style{
+    display:flex;
+    list-style: none;
+    justify-items:end;
+    /* margin-left: 31%; */
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.ul-style li{
+    margin-inline: 8%; 
+    margin: auto;
+    padding-top: 10px;
+    color: rgb(61, 57, 57);
+    font-weight: 500;
+    font-size: 1.3vw;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
+    /* border: 1px solid; */
+}
+
+.navButton{
+    padding-top: 17px;
+    /* padding-left: 20px; */
+    margin-left: 1%;
+    margin-right: 70px;
+    /* border: 1px solid black; */
+    width:10%;
+    /* width:15vw; */
+}
+.navButton button{
+    background-image: linear-gradient(to right,violet,blue);
+    border: 0px;
+    border-radius: 6px;
+    height: 40px;
+    padding: 10px;
+    color:white;
+    width:100px;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.3vw;
+    font-stretch: expanded;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    .log{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+
+    .navbar-nav{
+        display: none;
+    }
+    .nav-link-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        left: 0;
+        top: 55px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+}
+
